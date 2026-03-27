@@ -23,13 +23,13 @@ The car uses a 128-pixel line scan camera (LSC) to detect and track a black line
 
 Circuit diagrams are located in [`Documentation/Schematics/`](Documentation/Schematics/):
 
-- `TopLevel.png` — Full system overview
-- `H-bridge.PNG` — Motor driver circuit
-- `Line Camera.png` — Line scan camera wiring
-- `Servo.png` — Servo motor wiring
-- `Stearing Complete.png` — Complete steering circuit
-- `LCD_Schematic.png` — LCD display wiring
-- `Voltage Regulator.PNG` — Power supply circuit
+- [![TopLevel](Documentation/Schematics/TopLevel.png)](Documentation/Schematics/TopLevel.png) Full system overview
+- [![H-bridge](Documentation/Schematics/H-bridge.PNG)](Documentation/Schematics/H-bridge.PNG) Motor driver circuit
+- [![Line Camera](Documentation/Schematics/Line%20Camera.png)](Documentation/Schematics/Line%20Camera.png) Line scan camera wiring
+- [![Servo](Documentation/Schematics/Servo.png)](Documentation/Schematics/Servo.png) Servo motor wiring
+- [![Steering Complete](Documentation/Schematics/Stearing%20Complete.png)](Documentation/Schematics/Stearing%20Complete.png) Complete steering circuit
+- [![LCD Schematic](Documentation/Schematics/LCD_Schematic.png)](Documentation/Schematics/LCD_Schematic.png) LCD display wiring
+- [![Voltage Regulator](Documentation/Schematics/Voltage%20Regulator.PNG)](Documentation/Schematics/Voltage%20Regulator.PNG) Power supply circuit
 
 ## Operating Modes
 
@@ -147,6 +147,11 @@ PID output for steering is mapped to servo angle (−90° to +90°). Motor PID o
 
 Full design documents, test plans, and a final report are available in the [`Documentation/`](Documentation/) folder. Build photos and a demonstration video are in [`Demo & Proof/`](Demo%20%26%20Proof/).
 
-## Author
+## Authors
 
-**Zack Rauen** — developed November–December 2015 as part of a Systems-on-Chip (SOC) course project.
+| Name | Role |
+|---|---|
+| **Zack Rauen** | Primary developer |
+| **Juan Merchan** | Contributor |
+
+Developed November–December 2015 as part of the *Computer Engineering Junior Lab* course at Clarkson University, by the team **Straight Outta CompE (SOC)**.
